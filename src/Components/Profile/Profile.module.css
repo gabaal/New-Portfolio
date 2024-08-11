@@ -1,0 +1,76 @@
+.ProfileWrapper {
+  min-height: 80vh;
+  width: 360px;
+  padding: 50px 30px;
+  position: fixed;
+  top: 10%;
+  left: 5%;
+  border: 1px solid var(--border-color);
+  border-radius: 18px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ProfileWrapper h2 {
+  font-size: 32px;
+  color: var(--text-color);
+}
+
+.ProfileWrapper p {
+  font-size: 15px;
+  color: var(--text-color);
+}
+
+.ProfileWrapper h3 {
+  font-size: 26px;
+  color: var(--text-color);
+  letter-spacing: 0.5px;
+}
+
+.social {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.socialIcons {
+  display: flex;
+  gap: 20px;
+}
+
+.ProfileWrapper .social i {
+  height: 45px;
+  width: 50px;
+  font-size: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 2px solid var(--border-color);
+  color: var(--text-color);
+  transition: 0.6s;
+}
+
+.ProfileWrapper .social i:hover {
+  transform: translateY(-5px);
+}
+
+.ProfileWrapper .headerImg {
+  height: 300px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 18px;
+}
+
+.ProfileWrapper .headerImg img {
+  height: 100%;
+  width: 100%;
+  border-radius: 18px;
+}
+
+.ProfileWrapper button {
+  width: 100%;
+  font-size: 20px;
+}
