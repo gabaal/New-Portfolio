@@ -1,4 +1,4 @@
-import mainCSS from "./../Main/Main.module.css";
+import mainCSS from "./Main.module.css";
 
 function Main() {
   const Darkmode = () => {

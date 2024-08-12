@@ -52,7 +52,17 @@
   }
   .navbar {
     justify-content: center;
+    position: fixed;
+    top: 80%;
+    left: 25%;
+    width: fit-content;
+    background-color: #e6ebf468;
+    border-radius: 30px;
+    padding: 0 10px;
+    backdrop-filter: blur(8px);
+    border: 0.1px solid var(--border-color);
   }
+
   #nav_ThemeBtn {
     display: inline-block;
   }
@@ -64,8 +74,17 @@
   }
 }
 
+@media screen and (max-width: 768px) {
+  .navbar {
+    left: 20%;
+  }
+}
+
 @media screen and (max-width: 545px) {
   .navbar ul li {
     margin: 0 5px;
+  }
+  .navbar {
+    left: 15%;
   }
 }

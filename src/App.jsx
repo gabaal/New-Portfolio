@@ -1,5 +1,6 @@
 import "./App.css";
-import Main from "./Components/Profile/Main/Main";
+import Header from "./Components/Header/Header";
+import Main from "./Components/Main/Main";
 import Profile from "./Components/Profile/Profile";
 
 function App() {
@@ -8,6 +9,7 @@ function App() {
       <Profile />
       <div className="Main_Wrapper">
         <Main />
+        <Header />
       </div>
     </>
   );
