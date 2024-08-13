@@ -11,7 +11,7 @@ function Portfolio() {
       <h3 className="sectionheading">
         <i className="ri-shining-fill"></i> Portfolio
       </h3>
-      <h1>
+      <h1 className="section_Title">
         Check Out My <br />
         Featured Projects.
       </h1>

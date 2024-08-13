@@ -6,7 +6,7 @@ function Header() {
       <h3 className="sectionheading">
         <i className="ri-shining-fill"></i> Let&apos;s Meet !
       </h3>
-      <h1>
+      <h1 className="section_Title">
         I&apos;m Gerald Baalham <br />
         Web Designer and Software Engineer.
       </h1>
