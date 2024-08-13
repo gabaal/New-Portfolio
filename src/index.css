@@ -19,6 +19,7 @@
   --gradient-text: -webkit-linear-gradient(15deg, #8756cc, #5d4ec4);
   --button-color: #fff;
   --profile-bg-color: #ebf0f7;
+  --bg-black: #000;
 }
 
 [data-theme="Dark"] {
@@ -29,6 +30,7 @@
   --gradient-text: -webkit-linear-gradient(15deg, #e1bac5, #cec4ef);
   --button-color: #111111;
   --profile-bg-color: #111111;
+  --bg-black: #fff;
 }
 
 body {

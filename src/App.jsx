@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./Components/Header/Header";
 import Main from "./Components/Main/Main";
+import Portfolio from "./Components/Portfolio/Portfolio";
 import Profile from "./Components/Profile/Profile";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <div className="Main_Wrapper">
         <Main />
         <Header />
+        <Portfolio />
       </div>
     </>
   );

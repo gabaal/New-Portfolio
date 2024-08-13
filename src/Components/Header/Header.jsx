@@ -1,11 +1,10 @@
-import React from "react";
 import headerCSS from "./../Header/Header.module.css";
 
 function Header() {
   return (
     <div className={`${headerCSS.HeaderWrapper} section`}>
       <h3 className="sectionheading">
-        <i className="ri-shining-fill"></i> Let's Meet !
+        <i className="ri-shining-fill"></i> Let&apos;s Meet !
       </h3>
       <h1>
         I&apos;m Gerald Baalham <br />
