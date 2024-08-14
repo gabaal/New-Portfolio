@@ -7,8 +7,8 @@ function Header() {
         <i className="ri-shining-fill"></i> Let&apos;s Meet !
       </h3>
       <h1 className="section_Title">
-        I&apos;m Gerald Baalham <br />
-        Web Designer and Software Engineer.
+        I&apos;m Almiz Walker <br />
+        Digital Designer and ilustrator.
       </h1>
       <div className={headerCSS.header_btns}>
         <button>

@@ -13,7 +13,7 @@ function About() {
       <h1 className="section_Title">
         Turning Complex Problems Into
         <br />
-        Compact, Functional Apps.
+        Compact Designs.
       </h1>
       <div className={aboutcss.experienceWrapper}>
         <div className={aboutcss.experienceCard}>

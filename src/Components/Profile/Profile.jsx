@@ -4,14 +4,14 @@ import HeroImg from "./../../assets/GAB_Hero.jpg";
 function Profile() {
   return (
     <div className={profileCSS.ProfileWrapper}>
-      <h2>Gerald Baalham</h2>
+      <h2>Almiz Walker</h2>
       <div className={profileCSS.headerImg}>
         <img src={HeroImg} alt="" />
       </div>
       <div className={profileCSS.specialization}>
         <p>Specialisation</p>
         <h3>
-          Full Stack Web Design and <br /> Software Engineer
+          UI / UX Design and <br /> Front End Design
         </h3>
       </div>
       <div className={profileCSS.social}>
